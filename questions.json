@@ -1,0 +1,1995 @@
+{
+    "ark": [
+        {
+            "question": "Que sont réellement les \"ARKs\" ?",
+            "choices": ["Des planètes terraformées", "Des stations orbitales artificielles", "Des dimensions parallèles", "Des simulations numériques"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le véritable objectif des ARKs ?",
+            "choices": ["Divertir une civilisation avancée", "Tester des armes biologiques", "Préparer l'humanité à reconquérir la Terre", "Étudier les dinosaures"],
+            "answer": 2
+        },
+        {
+            "question": "Qui est Helena Walker ?",
+            "choices": ["Une scientifique du futur", "Une exploratrice du XIXe siècle", "Une IA centrale", "Une survivante contemporaine"],
+            "answer": 1
+        },
+        {
+            "question": "Que signifie \"Ascension\" dans Ark ?",
+            "choices": ["Monter au niveau 200", "Quitter l'ARK via un protocole de transfert", "Fusionner avec un Titan", "Devenir Tek"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est le véritable antagoniste principal de l'extension Ark: Aberration ?",
+            "choices": ["Le King Titan", "Rockwell", "Helena", "L'Overseer"],
+            "answer": 1
+        },
+        {
+            "question": "Que devient Rockwell à la fin d'Aberration ?",
+            "choices": ["Il meurt définitivement", "Il est absorbé par l'ARK", "Il fusionne avec le système", "Il est cryogénisé"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi la Terre est-elle inhabitable lors des événements d'Extinction ?",
+            "choices": ["Invasion alien", "Guerre nucléaire", "Corruption élémentaire", "Impact météoritique"],
+            "answer": 2
+        },
+        {
+            "question": "Qui contrôle les ARKs ?",
+            "choices": ["Une civilisation extraterrestre", "Des IA appelées Overseers", "Les Titans", "Rockwell"],
+            "answer": 1
+        },
+        {
+            "question": "Que représente l'\"Element\" dans le lore ?",
+            "choices": ["Une énergie divine", "Une matière extraterrestre instable", "Une intelligence artificielle cristallisée", "Un carburant Tek naturel"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est Santiago ?",
+            "choices": ["Un soldat médiéval", "Un ingénieur futuriste", "Un pirate", "Un scientifique alien"],
+            "answer": 1
+        },
+        {
+            "question": "Le King Titan est :",
+            "choices": ["Un Overseer", "Une créature naturelle", "Une entité corrompue par l'Element", "Un robot"],
+            "answer": 2
+        },
+        {
+            "question": "Que découvre-t-on à la fin d'Extinction ?",
+            "choices": ["La Terre est restaurée", "Les ARKs tombent vers la Terre", "Rockwell revient", "Les Titans gagnent"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Ark: Genesis Part 1, où se trouve réellement le joueur ?",
+            "choices": ["Sur une ARK secondaire", "Dans une simulation", "Sur Mars", "Dans une base Tek"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est HLN-A ?",
+            "choices": ["Une IA Overseer", "Une version numérique d'Helena", "Une entité alien", "Une Titan"],
+            "answer": 1
+        },
+        {
+            "question": "Que révèle Ark: Genesis Part 2 sur Rockwell ?",
+            "choices": ["Il est mort", "Il est redevenu humain", "Il a envahi un vaisseau interstellaire", "Il contrôle les ARKs"],
+            "answer": 2
+        },
+        {
+            "question": "Le vaisseau dans Genesis Part 2 transporte :",
+            "choices": ["Des Titans", "Des survivants clonés", "La dernière colonie humaine", "Des Overseers"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le but final de l'humanité dans Ark ?",
+            "choices": ["Détruire l'Element", "Recréer les dinosaures", "Coloniser une nouvelle planète", "Rester dans les ARKs"],
+            "answer": 2
+        },
+        {
+            "question": "Helena devient à terme :",
+            "choices": ["Une Titan", "Une Overseer", "Une entité ascendée", "Une IA hostile"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi les survivants perdent-ils la mémoire en arrivant sur une ARK ?",
+            "choices": ["Effet secondaire du clonage", "Choix volontaire", "Dysfonctionnement", "Manipulation alien"],
+            "answer": 0
+        },
+        {
+            "question": "Le cycle des ARKs sert à :",
+            "choices": ["Observer l'évolution", "Sélectionner les humains les plus aptes", "Créer des Titans", "Produire de l'Element"],
+            "answer": 1
+        }
+    ],
+    "test": [
+        {
+            "question": "Quelle est la capitale de l'Italie ?",
+            "choices": ["Milan", "Rome", "Venise", "Naples"],
+            "answer": 1
+        },
+        {
+            "question": "Combien y a-t-il de continents sur Terre ?",
+            "choices": ["5", "6", "7", "8"],
+            "answer": 2
+        },
+        {
+            "question": "Quel animal fait \"meuh\" ?",
+            "choices": ["Le mouton", "La vache", "Le cheval", "Le cochon"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la couleur du soleil sur un dessin d'enfant ?",
+            "choices": ["Bleu", "Rouge", "Jaune", "Vert"],
+            "answer": 2
+        },
+        {
+            "question": "Combien font 2 + 2 ?",
+            "choices": ["3", "4", "5", "Ça dépend"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le plus grand océan ?",
+            "choices": ["Atlantique", "Indien", "Pacifique", "Arctique"],
+            "answer": 2
+        },
+        {
+            "question": "Quel fruit est rouge et souvent associé à l'été ?",
+            "choices": ["Banane", "Pomme", "Fraise", "Kiwi"],
+            "answer": 2
+        },
+        {
+            "question": "Combien de jours y a-t-il dans une semaine ?",
+            "choices": ["5", "6", "7", "8"],
+            "answer": 2
+        },
+        {
+            "question": "Quel instrument donne l'heure ?",
+            "choices": ["Une guitare", "Une horloge", "Un piano", "Un tambour"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle boisson est faite à partir de grains de café ?",
+            "choices": ["Thé", "Jus d'orange", "Café", "Lait"],
+            "answer": 2
+        }
+    ],
+    "jurassic": [
+        {
+            "question": "Quel est le véritable objectif initial de John Hammond en créant Jurassic Park ?",
+            "choices": ["Dominer le marché militaire", "Révolutionner la médecine", "Créer un parc d'attraction spectaculaire", "Étudier l'évolution"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi les dinosaures de Jurassic Park peuvent-ils se reproduire malgré le contrôle génétique ?",
+            "choices": ["Mutation imprévue", "ADN humain inséré", "ADN de grenouille capable de changer de sexe", "Virus inconnu"],
+            "answer": 2
+        },
+        {
+            "question": "Quel personnage affirme : \"La vie trouve toujours un chemin\" ?",
+            "choices": ["Alan Grant", "Ian Malcolm", "Ellie Sattler", "Hammond"],
+            "answer": 1
+        },
+        {
+            "question": "Dans The Lost World, quel est le véritable projet derrière l'expédition sur Isla Sorna ?",
+            "choices": ["Sauvetage scientifique", "Créer un nouveau parc", "Capturer des dinosaures pour les exposer à San Diego", "Détruire l'île"],
+            "answer": 2
+        },
+        {
+            "question": "Isla Sorna est :",
+            "choices": ["L'île principale du premier parc", "Un site de production des dinosaures", "Une base militaire", "Une réserve naturelle protégée"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Jurassic World (2015), pourquoi l'Indominus Rex est-elle créée ?",
+            "choices": ["Étude scientifique", "Pression militaire", "Attirer davantage de visiteurs", "Tester un nouveau génome"],
+            "answer": 2
+        },
+        {
+            "question": "L'Indominus Rex contient notamment de l'ADN de :",
+            "choices": ["Spinosaurus", "Velociraptor", "Seiche", "Alligator"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle est la critique centrale portée par la saga Jurassic World ?",
+            "choices": ["Le militarisme", "Le clonage humain", "Le capitalisme et la course au spectacle", "La pollution"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Fallen Kingdom, pourquoi les dinosaures sont-ils évacués de l'île ?",
+            "choices": ["Guerre civile", "Éruption volcanique", "Invasion", "Catastrophe nucléaire"],
+            "answer": 1
+        },
+        {
+            "question": "Qui libère volontairement les dinosaures à la fin de Fallen Kingdom ?",
+            "choices": ["Owen", "Claire", "Maisie", "Malcolm"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi Maisie prend-elle cette décision ?",
+            "choices": ["Intérêt financier", "Manipulation", "Elle est elle-même un clone", "Menace immédiate"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Dominion, quel est le véritable problème mondial ?",
+            "choices": ["Les dinosaures envahissent les villes", "Une pandémie", "Des criquets génétiquement modifiés", "Une guerre biologique"],
+            "answer": 2
+        },
+        {
+            "question": "Qui est responsable du programme des criquets ?",
+            "choices": ["InGen", "Biosyn", "Lockwood", "Hammond"],
+            "answer": 1
+        },
+        {
+            "question": "Alan Grant dans le premier film est surtout spécialisé en :",
+            "choices": ["Génétique", "Théorie du chaos", "Paléobotanique", "Paléontologie des vertébrés"],
+            "answer": 3
+        },
+        {
+            "question": "Ian Malcolm représente philosophiquement :",
+            "choices": ["La foi scientifique", "Le pragmatisme", "La théorie du chaos et la critique de l'arrogance scientifique", "Le progrès technologique"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Jurassic Park III, que cherche réellement la famille Kirby ?",
+            "choices": ["Un trésor", "Un scientifique", "Leur fils disparu", "Un embryon"],
+            "answer": 2
+        },
+        {
+            "question": "Le Spinosaurus de JP3 est controversé car :",
+            "choices": ["Il est fictif", "Il tue un T-Rex", "Il vole", "Il parle"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le thème récurrent de toute la saga ?",
+            "choices": ["L'évolution naturelle", "L'hubris humaine face à la nature", "L'extinction climatique", "La guerre"],
+            "answer": 1
+        },
+        {
+            "question": "Le message final de Dominion suggère :",
+            "choices": ["L'extinction des dinos", "La domination humaine", "La cohabitation fragile entre espèces", "Le retour des parcs"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle phrase symbolise le mieux l'échec moral de la saga ?",
+            "choices": ["Bienvenue à Jurassic Park", "Plus de dents", "La vie trouve toujours un chemin", "Nous étions tellement préoccupés par le fait de pouvoir le faire…"],
+            "answer": 3
+        }
+    ],
+    "seigneur_des_anneaux": [
+        {
+            "question": "Qui est réellement Sauron à l'origine ?",
+            "choices": ["Un Elfe déchu", "Un Roi humain corrompu", "Un Maia au service de Morgoth", "Un Balrog"],
+            "answer": 2
+        },
+        {
+            "question": "Morgoth est :",
+            "choices": ["Le frère de Sauron", "Le premier Seigneur des Ténèbres", "Un Balrog suprême", "Un dragon primordial"],
+            "answer": 1
+        },
+        {
+            "question": "Pourquoi l'Anneau Unique corrompt-il autant ?",
+            "choices": ["Il est maudit par les Valar", "Il contient une partie de l'essence de Sauron", "Il est forgé dans le feu d'un Balrog", "Il absorbe l'âme du porteur"],
+            "answer": 1
+        },
+        {
+            "question": "Pourquoi Gandalf refuse-t-il de porter l'Anneau ?",
+            "choices": ["Il est immunisé", "Il est trop faible", "Il sait qu'il deviendrait un tyran \"bienveillant\"", "Il ne peut pas toucher l'or"],
+            "answer": 2
+        },
+        {
+            "question": "Qui forgea les Anneaux de Pouvoir ?",
+            "choices": ["Sauron seul", "Celebrimbor avec l'aide de Sauron", "Feanor", "Elrond"],
+            "answer": 1
+        },
+        {
+            "question": "Les Nazgûl étaient à l'origine :",
+            "choices": ["Des Elfes", "Des Nains", "Des Hommes", "Des Maiar"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi les Nains ne sont-ils pas devenus des Nazgûl ?",
+            "choices": ["Ils ont détruit leurs anneaux", "Ils sont naturellement résistants à la domination", "Les anneaux ne fonctionnaient pas sur eux", "Sauron les a épargnés"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est réellement Aragorn ?",
+            "choices": ["Un simple rôdeur", "Un Elfe hybride", "L'héritier d'Isildur", "Un Maia incarné"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi l'Anneau ne peut-il être détruit que dans la Montagne du Destin ?",
+            "choices": ["Seul feu sacré", "Lieu de sa forge", "Volonté des Valar", "Magie elfique"],
+            "answer": 1
+        },
+        {
+            "question": "Qui tue le Roi-Sorcier d'Angmar ?",
+            "choices": ["Aragorn", "Gandalf", "Éowyn", "Legolas"],
+            "answer": 2
+        },
+        {
+            "question": "Que sont les Istari ?",
+            "choices": ["Des Elfes anciens", "Des rois humains", "Des Maiar envoyés en Terre du Milieu", "Des esprits de la nature"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi Saruman trahit-il ?",
+            "choices": ["Par peur", "Par jalousie de Gandalf", "Il pense pouvoir contrôler l'Anneau", "Il est possédé"],
+            "answer": 2
+        },
+        {
+            "question": "Qui est le père de Legolas ?",
+            "choices": ["Elrond", "Thranduil", "Celeborn", "Fingolfin"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le véritable nom de Gandalf ?",
+            "choices": ["Mithrandir", "Olórin", "Curunír", "Eärendil"],
+            "answer": 1
+        },
+        {
+            "question": "Que devient Sauron après la destruction de l'Anneau ?",
+            "choices": ["Il meurt", "Il est enfermé", "Son esprit survit mais incapable de reprendre forme", "Il renaît"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi Gollum est-il essentiel à la réussite de la quête ?",
+            "choices": ["Il guide Frodon", "Il trahit Sauron", "Il provoque involontairement la destruction de l'Anneau", "Il tue un Nazgûl"],
+            "answer": 2
+        },
+        {
+            "question": "Qui est Eärendil ?",
+            "choices": ["Un Roi humain", "Le père d'Elrond", "Un Balrog", "Un Nain ancien"],
+            "answer": 1
+        },
+        {
+            "question": "Les Balrogs sont :",
+            "choices": ["Des dragons", "Des esprits corrompus de feu", "Des Maiar corrompus", "Des créations de Sauron"],
+            "answer": 2
+        },
+        {
+            "question": "Pourquoi les Elfes quittent-ils la Terre du Milieu ?",
+            "choices": ["Ils sont bannis", "Leur temps touche à sa fin", "Ils ont perdu la guerre", "Les Valar les rappellent de force"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le thème central du Seigneur des Anneaux ?",
+            "choices": ["La conquête", "La puissance", "Le sacrifice et la corruption du pouvoir", "La vengeance"],
+            "answer": 2
+        }
+    ],
+    "disney": [
+        {
+            "question": "Quel est le tout premier long-métrage d'animation Disney ?",
+            "choices": ["Pinocchio", "Blanche-Neige et les Sept Nains", "Fantasia", "Dumbo"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Le Roi Lion, quel est le vrai nom de Scar ?",
+            "choices": ["Kovu", "Mufasa Jr", "Taka", "Askari"],
+            "answer": 2
+        },
+        {
+            "question": "Dans La Petite Sirène, comment Ursula est-elle liée à Triton dans certaines versions du lore étendu ?",
+            "choices": ["Ancienne reine", "Sa sœur", "Sa fille", "Une simple sorcière extérieure"],
+            "answer": 1
+        },
+        {
+            "question": "Quel film marque le début de la \"Renaissance Disney\" en 1989 ?",
+            "choices": ["Aladdin", "La Belle et la Bête", "La Petite Sirène", "Le Bossu de Notre-Dame"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Mulan, pourquoi l'armée accepte-t-elle Ping (Mulan déguisée) ?",
+            "choices": ["Grâce à Mushu", "Par erreur administrative", "Elle sauve le capitaine", "Elle prouve sa valeur à l'entraînement"],
+            "answer": 3
+        },
+        {
+            "question": "Quel personnage ne possède PAS de chanson solo ?",
+            "choices": ["Pocahontas", "Belle", "Jasmine (film original 1992)", "Ariel"],
+            "answer": 2
+        },
+        {
+            "question": "Dans La Reine des Neiges, qu'est-ce qui déclenche les pouvoirs d'Elsa hors de contrôle ?",
+            "choices": ["Une malédiction", "La peur", "Une prophétie", "Hans"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le nom du royaume dans Raiponce ?",
+            "choices": ["Arendelle", "Corona", "Andalasia", "DunBroch"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Le Bossu de Notre-Dame, quel est le véritable thème central ?",
+            "choices": ["L'aventure", "La foi aveugle", "La différence et l'exclusion", "La magie"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Aladdin (1992), que ne peut PAS faire le Génie ?",
+            "choices": ["Tuer quelqu'un", "Faire tomber amoureux", "Ramener les morts", "Toutes ces réponses"],
+            "answer": 3
+        },
+        {
+            "question": "Dans Héraclès (1997), Hadès est le dieu de :",
+            "choices": ["La mort", "L'enfer", "Les Enfers", "Le chaos"],
+            "answer": 2
+        },
+        {
+            "question": "Quel film Disney est directement inspiré d'une légende chinoise ?",
+            "choices": ["Raya", "Mulan", "Vaiana", "Pocahontas"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Vaiana, qui est réellement Te Fiti ?",
+            "choices": ["Une déesse océanique", "Une créature maudite", "Te Kā transformée", "La mère de Maui"],
+            "answer": 2
+        },
+        {
+            "question": "Dans La Belle et la Bête, combien de pétales restaient-il quand Belle revient ?",
+            "choices": ["1", "2", "3", "Aucun"],
+            "answer": 0
+        },
+        {
+            "question": "Quel film Disney n'est PAS basé sur un conte européen ?",
+            "choices": ["Cendrillon", "La Belle au Bois Dormant", "Tarzan", "Vaiana"],
+            "answer": 3
+        },
+        {
+            "question": "Dans Encanto, quel membre de la famille Madrigal n'a aucun pouvoir ?",
+            "choices": ["Camilo", "Bruno", "Mirabel", "Isabela"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le nom du père d'Ariel ?",
+            "choices": ["Poséidon", "Triton", "Neptune", "Atlas"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Le Roi Lion, que représente la \"Terre des Ombres\" ?",
+            "choices": ["Un mythe", "Le royaume ennemi", "Un territoire stérile hors du cycle de la vie", "Un ancien royaume"],
+            "answer": 2
+        },
+        {
+            "question": "Quel film Disney aborde directement la colonisation européenne ?",
+            "choices": ["Tarzan", "Pocahontas", "La Planète au Trésor", "Raya"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le thème récurrent majeur des classiques Disney ?",
+            "choices": ["La richesse", "L'héritage royal", "La quête d'identité et l'émancipation", "La magie noire"],
+            "answer": 2
+        }
+    ],
+    "jeux_video": [
+        {
+            "question": "Quel est considéré comme le premier jeu vidéo commercial ?",
+            "choices": ["Pong", "Space Invaders", "Computer Space", "Pac-Man"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle console a introduit le joystick comme standard ?",
+            "choices": ["Atari 2600", "Magnavox Odyssey", "NES", "ColecoVision"],
+            "answer": 1
+        },
+        {
+            "question": "Quel jeu a popularisé le genre \"FPS\" en 1993 ?",
+            "choices": ["Doom", "Wolfenstein 3D", "Quake", "Duke Nukem 3D"],
+            "answer": 0
+        },
+        {
+            "question": "Qui est le créateur de Mario ?",
+            "choices": ["Hideo Kojima", "Shigeru Miyamoto", "Yu Suzuki", "Sid Meier"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle franchise a popularisé le \"Metroidvania\" ?",
+            "choices": ["Castlevania + Metroid", "Contra", "Mega Man", "Ninja Gaiden"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le premier RPG japonais à connaître un succès mondial ?",
+            "choices": ["Final Fantasy I", "Dragon Quest", "Chrono Trigger", "Phantasy Star"],
+            "answer": 1
+        },
+        {
+            "question": "Quel studio a créé la série The Legend of Zelda ?",
+            "choices": ["Capcom", "Square", "Nintendo EAD", "Konami"],
+            "answer": 2
+        },
+        {
+            "question": "Quel jeu est reconnu pour avoir popularisé le \"sandbox open world\" ?",
+            "choices": ["GTA III", "The Elder Scrolls III: Morrowind", "Minecraft", "The Legend of Zelda: Ocarina of Time"],
+            "answer": 0
+        },
+        {
+            "question": "Quel jeu a été le premier à introduire un monde entièrement 3D sur console grand public ?",
+            "choices": ["Super Mario 64", "Tomb Raider", "Crash Bandicoot", "Star Fox 64"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle franchise a révolutionné les jeux de combat avec le système \"combo\" moderne ?",
+            "choices": ["Street Fighter II", "Mortal Kombat", "Tekken", "Virtua Fighter"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le premier jeu à utiliser la technologie \"ray tracing\" en temps réel sur PC ?",
+            "choices": ["Minecraft RTX", "Quake II RTX", "Cyberpunk 2077", "Control"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est le créateur de Metal Gear ?",
+            "choices": ["Shinji Mikami", "Hideo Kojima", "Fumito Ueda", "Goichi Suda"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle franchise introduit le concept de \"souls-like\" moderne ?",
+            "choices": ["Dark Souls", "Bloodborne", "Demon's Souls", "Sekiro"],
+            "answer": 2
+        },
+        {
+            "question": "Quel jeu est considéré comme le pionnier des MOBA ?",
+            "choices": ["DotA", "League of Legends", "Heroes of Newerth", "Warcraft III mod"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le studio derrière The Witcher 3 ?",
+            "choices": ["CD Projekt Red", "Bioware", "Bethesda", "Blizzard"],
+            "answer": 0
+        },
+        {
+            "question": "Quel jeu a été le premier à proposer un monde persistant massivement multijoueur ?",
+            "choices": ["Ultima Online", "EverQuest", "World of Warcraft", "Second Life"],
+            "answer": 0
+        },
+        {
+            "question": "Quel jeu est considéré comme le premier battle royale moderne ?",
+            "choices": ["Fortnite Battle Royale", "PUBG", "H1Z1", "Apex Legends"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle licence a introduit le concept de \"collectibles à compléter\" sur consoles ?",
+            "choices": ["Pokémon", "Banjo-Kazooie", "Sonic the Hedgehog", "Spyro"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle franchise est pionnière dans le jeu narratif avec choix multiples ?",
+            "choices": ["Mass Effect", "The Walking Dead (Telltale)", "Dragon Age", "Heavy Rain"],
+            "answer": 1
+        },
+        {
+            "question": "Quel jeu est souvent cité comme le plus influent de tous les temps ?",
+            "choices": ["Tetris", "Super Mario Bros", "Minecraft", "Doom"],
+            "answer": 1
+        }
+    ],
+    "jeux_video_lore": [
+        {
+            "question": "Dans The Legend of Zelda: Ocarina of Time, quel est le véritable nom de Zelda lorsqu'elle se déguise en garçon ?",
+            "choices": ["Sheik", "Linkle", "Nayru", "Impa"],
+            "answer": 0
+        },
+        {
+            "question": "Dans Dark Souls, qui forge l'épée du joueur pour affronter Gwyn ?",
+            "choices": ["Andre le forgeron", "Seigward de Catarina", "Frampt", "Ciaran"],
+            "answer": 0
+        },
+        {
+            "question": "Dans Half-Life, quel est le nom du laboratoire où travaille Gordon Freeman ?",
+            "choices": ["Aperture Science", "Black Mesa", "Combine Labs", "Ravenholm"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Mass Effect, quel personnage est le premier Spectre humain de l'histoire ?",
+            "choices": ["Ashley Williams", "Shepard", "Garrus Vakarian", "Kaidan Alenko"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Resident Evil, quel virus est à l'origine de l'épidémie dans le manoir Spencer ?",
+            "choices": ["T-Virus", "G-Virus", "C-Virus", "Uroboros"],
+            "answer": 0
+        },
+        {
+            "question": "Dans Final Fantasy VII, qui est réellement Sephiroth ?",
+            "choices": ["Un clone de Cloud", "Un SOLDAT de première classe", "Le fils génétique de Hojo et Jenova", "Un simple mercenaire"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Metroid, qui est la principale antagoniste derrière Samus Aran ?",
+            "choices": ["Ridley", "Mother Brain", "Kraid", "Chozo Emperor"],
+            "answer": 1
+        },
+        {
+            "question": "Dans The Elder Scrolls V: Skyrim, quel est le nom du dragon qui prophétise la fin du monde ?",
+            "choices": ["Paarthurnax", "Alduin", "Odahviing", "Durnehviir"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Pokémon, qui est le premier champion que le joueur rencontre à Kanto ?",
+            "choices": ["Blue / Gary", "Brock", "Misty", "Giovanni"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Halo, qui est le commandant de l'UNSC et mentor de Master Chief ?",
+            "choices": ["Cortana", "Johnson", "Keyes", "Arbiter"],
+            "answer": 2
+        },
+        {
+            "question": "Dans The Witcher 3, quel monstre est connu pour semer la panique dans Novigrad et est lié à un prince transformé ?",
+            "choices": ["Le Griffin", "Le Basilisk", "L'Endrega", "Le Striga"],
+            "answer": 3
+        },
+        {
+            "question": "Dans Bloodborne, quelle est la source de la malédiction de la ville de Yharnam ?",
+            "choices": ["Le sang ancien", "Les dieux anciens", "Les créatures du cauchemar", "L'Académie des chasseurs"],
+            "answer": 0
+        },
+        {
+            "question": "Dans Overwatch, quel personnage est un hacker spécialisé en infiltration ?",
+            "choices": ["Tracer", "Sombra", "Reaper", "Zenyatta"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Persona 5, quel est le véritable nom du groupe Phantom Thieves ?",
+            "choices": ["Heart Stealers", "Phantom Hearts", "Phantom Thieves of Hearts", "Joker's Crew"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Animal Crossing, qui est le maire du village dans les versions récentes ?",
+            "choices": ["Tom Nook", "Isabelle", "K.K. Slider", "Blathers"],
+            "answer": 1
+        },
+        {
+            "question": "Dans The Legend of Zelda: Breath of the Wild, quel est le nom de la calamité qui a détruit Hyrule 100 ans avant le jeu ?",
+            "choices": ["Ganon", "Calamity Ganon", "Dark Beast", "Vaati"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Minecraft, quel boss final apparaît dans l'End ?",
+            "choices": ["Le Wither", "L'Ender Dragon", "Le Ghast", "L'Enderman"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Fortnite, quel crossover célèbre a été introduit en 2020 ?",
+            "choices": ["Avengers: Endgame", "Star Wars", "Marvel Heroes", "The Mandalorian"],
+            "answer": 3
+        },
+        {
+            "question": "Dans Cyberpunk 2077, quel est le nom complet du protagoniste principal par défaut ?",
+            "choices": ["V", "Vito", "Vincent", "Victor"],
+            "answer": 0
+        },
+        {
+            "question": "Dans League of Legends, qui est le roi déchu de Demacia ?",
+            "choices": ["Jarvan III", "Jarvan IV", "Jarvan II", "Jarvan V"],
+            "answer": 1
+        }
+    ],
+    "pokemon": [
+        {
+            "question": "Quel est le véritable objectif de la Team Rocket dans les jeux originaux ?",
+            "choices": ["Dominer le monde", "Voler des Pokémon rares pour leur profit", "Détruire toutes les Arènes", "Expérimenter des mutations"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est le premier Pokémon légendaire que le joueur rencontre dans Pokémon Or/Argent ?",
+            "choices": ["Raikou", "Suicune", "Entei", "Lugia"],
+            "answer": 2
+        },
+        {
+            "question": "Quel Pokémon est connu pour être \"le Créateur\" de l'univers Pokémon selon le lore de Sinnoh ?",
+            "choices": ["Giratina", "Arceus", "Dialga", "Palkia"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la particularité des Pokémon de type Spectre face au Normal et Combat ?",
+            "choices": ["Résistant à toutes leurs attaques", "Immunité totale", "Faiblesse double", "Aucun effet spécial"],
+            "answer": 1
+        },
+        {
+            "question": "Quel Pokémon légendaire contrôle le temps ?",
+            "choices": ["Dialga", "Palkia", "Giratina", "Celebi"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le Pokémon légendaire mascotte de Pokémon Or ?",
+            "choices": ["Ho-Oh", "Lugia", "Entei", "Suicune"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le Pokémon légendaire mascotte de Pokémon Argent ?",
+            "choices": ["Raikou", "Ho-Oh", "Lugia", "Celebi"],
+            "answer": 2
+        },
+        {
+            "question": "Qui est le Maître de la Ligue Pokémon dans Pokémon Rouge/Bleu ?",
+            "choices": ["Pierre", "Aldo", "Blue (Rival)", "Giovanni"],
+            "answer": 2
+        },
+        {
+            "question": "Quel Pokémon légendaire est enfermé dans la Centrale abandonnée à Kanto ?",
+            "choices": ["Electhor", "Artikodin", "Sulfura", "Mewtwo"],
+            "answer": 0
+        },
+        {
+            "question": "Quel Pokémon est capable d'apprendre toutes les CT et CS dans la première génération ?",
+            "choices": ["Métamorph", "Mew", "Ronflex", "Dracolosse"],
+            "answer": 1
+        },
+        {
+            "question": "Quel Pokémon fabuleux est obtenu via un événement spécial dans Pokémon Cristal ?",
+            "choices": ["Celebi", "Mew", "Jirachi", "Deoxys"],
+            "answer": 0
+        },
+        {
+            "question": "Quel trio légendaire représente les oiseaux de Kanto ?",
+            "choices": [
+                "Artikodin, Electhor, Sulfura",
+                "Raikou, Entei, Suicune",
+                "Regirock, Regice, Registeel",
+                "Ho-Oh, Lugia, Celebi"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Quel Pokémon a été créé artificiellement à partir de l'ADN de Mew ?",
+            "choices": ["Mewtwo", "Mew", "Ditto", "Dracolosse"],
+            "answer": 0
+        },
+        {
+            "question": "Quel Pokémon de type Eau/Spectre hante la Tour Pokémon à Lavanville ?",
+            "choices": ["Ectoplasma", "Osselait", "Hypnomade", "Aucun, c'est un esprit non identifié"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le Pokémon final évolué du starter Salamèche ?",
+            "choices": ["Reptincel", "Dracaufeu", "Draco", "Magmar"],
+            "answer": 1
+        },
+        {
+            "question": "Quel Pokémon légendaire est caché au fond de la Grotte Azurée ?",
+            "choices": ["Mew", "Mewtwo", "Lugia", "Ho-Oh"],
+            "answer": 1
+        },
+        {
+            "question": "Quel Champion d'Arène de Kanto est en réalité le chef de la Team Rocket ?",
+            "choices": ["Auguste", "Erika", "Giovanni", "Koga"],
+            "answer": 2
+        },
+        {
+            "question": "Quel Pokémon peut se transformer en n'importe quel autre Pokémon ?",
+            "choices": ["Mew", "Métamorph", "Mewtwo", "Celebi"],
+            "answer": 1
+        },
+        {
+            "question": "Quel Pokémon légendaire apparaît sur la Tour Cendrée dans Pokémon Or/Argent ?",
+            "choices": ["Ho-Oh", "Lugia", "Suicune", "Entei"],
+            "answer": 0
+        },
+        {
+            "question": "Dans le lore Pokémon, qui est considéré comme le créateur de l'univers ?",
+            "choices": ["Arceus", "Mew", "Giratina", "Dialga"],
+            "answer": 0
+        }
+    ],
+    "anime": [
+        {
+            "question": "Dans One Piece, quel est le véritable objectif de Gol D. Roger ?",
+            "choices": ["Accumuler des richesses", "Devenir roi des pirates", "Laisser un message et un trésor pour inspirer une nouvelle génération", "Dominer le monde"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Naruto, quel est le secret derrière le nom \"Uchiha\" ?",
+            "choices": ["Ce sont des ninjas ayant le pouvoir du feu", "Ils possèdent le Sharingan, un dōjutsu héréditaire", "Ils sont des descendants directs du Sage des Six Chemins", "Ils maîtrisent tous les éléments"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Attack on Titan, quel est le rôle des Titans Primordiaux ?",
+            "choices": ["Créer la peur chez les humains", "Servir de monnaie d'échange", "Maintenir la domination et les secrets du peuple Eldien", "Être simplement des armes"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Dragon Ball, qui est le premier véritable antagoniste de Goku enfant ?",
+            "choices": ["Freezer", "Piccolo Daimaō", "Raditz", "Tambourine"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Bleach, quel est le rôle principal de la Soul Society ?",
+            "choices": ["Contrôler les humains", "Juger les Hollows et maintenir l'équilibre entre mondes", "Former des Espadas", "Détruire toutes les âmes faibles"],
+            "answer": 1
+        },
+        {
+            "question": "Dans My Hero Academia, qu'est-ce qu'un \"Quirk\" ?",
+            "choices": ["Un objet magique", "Une mutation génétique donnant des pouvoirs", "Une organisation secrète", "Un type de Pokémon"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Fullmetal Alchemist, quel est le principe de l'alchimie interdit dans le pays d'Amestris ?",
+            "choices": ["Créer de l'or", "La transmutation humaine", "Transformer l'eau en feu", "Résusciter les dieux"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Death Note, pourquoi Ryuk laisse tomber le Death Note dans le monde humain ?",
+            "choices": ["Pour tester sa puissance", "Pour s'amuser", "Pour punir Light", "Pour provoquer le chaos et s'ennuyer moins"],
+            "answer": 3
+        },
+        {
+            "question": "Dans Hunter x Hunter, quel est le but de Gon Freecss ?",
+            "choices": ["Devenir le plus fort de tous", "Retrouver son père", "Battre Killua", "Collecter des Pokémon"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Tokyo Ghoul, quel est le rôle des CCG (Commission of Counter Ghoul) ?",
+            "choices": ["Protéger les humains et traquer les ghouls", "Élever des ghouls", "Détruire tous les humains", "Former des Quirks"],
+            "answer": 0
+        },
+        {
+            "question": "Dans One Piece, qu'est-ce que le \"Haki\" ?",
+            "choices": ["Une arme mythique", "Une énergie spirituelle permettant de combattre ou percevoir les autres", "Une île légendaire", "Un style de combat marin"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Naruto, qui est réellement Tobi ?",
+            "choices": ["Un ninja anonyme", "Obito Uchiha", "Kakashi déguisé", "Un clone de Madara"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Attack on Titan, pourquoi Eren Jaeger se transforme-t-il en Titan ?",
+            "choices": ["Par héritage familial", "Par mutation aléatoire", "Grâce à un traitement scientifique", "Pour provoquer le chaos"],
+            "answer": 0
+        },
+        {
+            "question": "Dans Bleach, qui est le capitaine de la 13e Division ?",
+            "choices": ["Abarai Renji", "Kuchiki Byakuya", "Urahara Kisuke", "Hitsugaya Tōshirō"],
+            "answer": 1
+        },
+        {
+            "question": "Dans My Hero Academia, quel est le mentor principal de Izuku Midoriya ?",
+            "choices": ["Bakugo", "All Might", "Endeavor", "Eraser Head"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Fullmetal Alchemist, quel est le véritable secret de l'Homme de Pierre ?",
+            "choices": ["C'est un homoncule créé pour protéger les alchimistes", "C'est un humain ressuscité", "C'est un chimiste légendaire", "C'est l'âme d'un dieu"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Death Note, quel est le vrai nom du détective L ?",
+            "choices": ["Ryuk", "Light Yagami", "L Lawliet", "Near"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Hunter x Hunter, quel est le nom du type de pouvoir basé sur la manipulation de l'énergie vitale ?",
+            "choices": ["Chakra", "Nen", "Ki", "Haki"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Tokyo Ghoul, qui est Ken Kaneki réellement ?",
+            "choices": ["Un humain normal", "Un demi-ghoul suite à une opération chirurgicale", "Un inspecteur CCG", "Un dragon"],
+            "answer": 1
+        },
+        {
+            "question": "Dans One Piece, quel est le pouvoir du Fruit du Démon de Luffy ?",
+            "choices": ["Transformer en métal", "Étirer son corps comme du caoutchouc", "Contrôler la glace", "Créer des clones"],
+            "answer": 1
+        }
+    ],
+    "musique_films": [
+        {
+            "question": "Qui a composé la musique emblématique de Star Wars ?",
+            "choices": ["Hans Zimmer", "John Williams", "James Horner", "Ennio Morricone"],
+            "answer": 1
+        },
+        {
+            "question": "Quel film est associé au thème \"Hedwig's Theme\" ?",
+            "choices": ["Harry Potter à l'école des sorciers", "Le Seigneur des Anneaux", "Star Wars", "Narnia"],
+            "answer": 0
+        },
+        {
+            "question": "Quel compositeur est célèbre pour ses partitions dans Le Roi Lion (1994) et Le Cercle des Poètes Disparus ?",
+            "choices": ["Alan Silvestri", "Hans Zimmer", "John Powell", "Danny Elfman"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le compositeur de la musique originale de Jurassic Park ?",
+            "choices": ["John Williams", "James Horner", "Howard Shore", "Alan Menken"],
+            "answer": 0
+        },
+        {
+            "question": "Quel film est associé à la célèbre musique \"The Imperial March\" ?",
+            "choices": ["Star Trek", "Star Wars", "Indiana Jones", "Harry Potter"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a composé la musique de Le Seigneur des Anneaux ?",
+            "choices": ["John Williams", "Howard Shore", "Ennio Morricone", "Hans Zimmer"],
+            "answer": 1
+        },
+        {
+            "question": "Dans quel film peut-on entendre la chanson \"My Heart Will Go On\" de Céline Dion ?",
+            "choices": ["Titanic", "Le Roi Lion", "Avatar", "Pearl Harbor"],
+            "answer": 0
+        },
+        {
+            "question": "Quel compositeur a travaillé sur la bande originale de Inception et Gladiator ?",
+            "choices": ["Hans Zimmer", "John Powell", "Danny Elfman", "Alexandre Desplat"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le film associé au thème musical \"Also sprach Zarathustra\" de Richard Strauss ?",
+            "choices": ["2001: L'Odyssée de l'espace", "Interstellar", "Star Trek", "Gravity"],
+            "answer": 0
+        },
+        {
+            "question": "Qui a composé la musique de Pirates des Caraïbes ?",
+            "choices": ["Klaus Badelt", "Hans Zimmer", "John Williams", "Danny Elfman"],
+            "answer": 1
+        },
+        {
+            "question": "Quel compositeur a écrit la musique de Batman (1989) ?",
+            "choices": ["Danny Elfman", "John Williams", "Howard Shore", "Alan Silvestri"],
+            "answer": 0
+        },
+        {
+            "question": "Dans Harry Potter, qui a composé la bande originale de Harry Potter et la Coupe de Feu ?",
+            "choices": ["John Williams", "Patrick Doyle", "Nicholas Hooper", "Alexandre Desplat"],
+            "answer": 1
+        },
+        {
+            "question": "Quel film utilise la chanson \"Circle of Life\" ?",
+            "choices": ["Le Roi Lion", "Pocahontas", "Mulan", "La Belle et la Bête"],
+            "answer": 0
+        },
+        {
+            "question": "Qui a composé la musique de Gladiator (2000) ?",
+            "choices": ["Hans Zimmer et Lisa Gerrard", "John Williams", "Howard Shore", "James Newton Howard"],
+            "answer": 0
+        },
+        {
+            "question": "Quel film est associé à la bande originale de The Dark Knight ?",
+            "choices": ["Batman Begins", "The Dark Knight", "Batman Forever", "Batman & Robin"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a composé la bande originale de Interstellar ?",
+            "choices": ["John Powell", "Hans Zimmer", "Thomas Newman", "Danny Elfman"],
+            "answer": 1
+        },
+        {
+            "question": "Dans quel film peut-on entendre la musique \"Time\" de Hans Zimmer ?",
+            "choices": ["Inception", "Interstellar", "Dunkerque", "Gladiator"],
+            "answer": 0
+        },
+        {
+            "question": "Quel film de Pixar est associé à la chanson \"Remember Me\" ?",
+            "choices": ["Coco", "Toy Story", "Ratatouille", "Soul"],
+            "answer": 0
+        },
+        {
+            "question": "Quel compositeur a écrit la musique de Harry Potter et le Prisonnier d'Azkaban ?",
+            "choices": ["John Williams", "Nicholas Hooper", "Patrick Doyle", "Alexandre Desplat"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a composé la musique originale de The Social Network ?",
+            "choices": ["Trent Reznor et Atticus Ross", "Hans Zimmer", "John Powell", "Howard Shore"],
+            "answer": 0
+        }
+    ],
+    "harry_potter": [
+        {
+            "question": "Qui a été le premier directeur de Poudlard à avoir utilisé la Pierre Philosophale ?",
+            "choices": ["Dumbledore", "Nicholas Flamel", "Salazar Serpentard", "Helga Poufsouffle"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le patronus de Severus Rogue ?",
+            "choices": ["Cerf", "Loutre", "Biche", "Daim"],
+            "answer": 3
+        },
+        {
+            "question": "Qui est réellement le demi-frère de Sirius Black ?",
+            "choices": ["Regulus", "Bellatrix", "Andromeda", "Narcissa"],
+            "answer": 0
+        },
+        {
+            "question": "Quel sort est utilisé pour repousser les Détraqueurs ?",
+            "choices": ["Expelliarmus", "Lumos", "Expecto Patronum", "Protego"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle créature protège la chambre des secrets ?",
+            "choices": ["Basilic", "Détraqueur", "Dragon", "Sombral"],
+            "answer": 0
+        },
+        {
+            "question": "Qui est la mère de Neville Londubat ?",
+            "choices": ["Alice Londubat", "Augusta Londubat", "Lily Londubat", "Andromeda Londubat"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le véritable prénom de Lord Voldemort ?",
+            "choices": ["Tom Marvolo Riddle", "Tom Elphias Riddle", "Tom Gaunt", "Tom Malfoy"],
+            "answer": 0
+        },
+        {
+            "question": "Quel Horcruxe est caché dans le médaillon de Serpentard ?",
+            "choices": ["Médaillon de Salazar Serpentard", "Coupe de Poufsouffle", "Diadème de Serdaigle", "Nagini"],
+            "answer": 0
+        },
+        {
+            "question": "Qui a été le professeur de Défense contre les Forces du Mal dans le troisième tome ?",
+            "choices": ["Quirrell", "Lockhart", "Lupin", "Moody"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le vrai visage de \"Mad-Eye\" Moody ?",
+            "choices": ["Alastor Moody", "Barty Croupton Jr. déguisé", "Rufus Scrimgeour", "Gilderoy Lockhart"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a inventé le Polynectar ?",
+            "choices": ["Severus Rogue", "Horace Slughorn", "Hermione Granger", "Un alchimiste anonyme"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle plante est utilisée pour créer le Polynectar ?",
+            "choices": ["Mandragore", "Chardon-Cramoisi", "Belladone", "Tentacula Vénéneuse"],
+            "answer": 0
+        },
+        {
+            "question": "Qui a été le véritable auteur des livres de Défense contre les Forces du Mal pendant plusieurs années ?",
+            "choices": ["Gilderoy Lockhart", "Severus Rogue", "Quirinus Quirrell", "Remus Lupin"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le nom du gobelin chef de Gringotts ?",
+            "choices": ["Griphook", "Ragnok", "Bogrod", "Travers"],
+            "answer": 1
+        },
+        {
+            "question": "Quel sort est utilisé pour réparer les objets cassés ?",
+            "choices": ["Reparo", "Fixio", "Conjunctivitis", "Reparifarge"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle est la créature qui transporte les sorciers d'un lieu à un autre via le réseau de cheminées ?",
+            "choices": ["Chouette", "Balai", "Feu du Fumseck", "Cheminette"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le dernier Horcruxe détruit ?",
+            "choices": ["La bague de Gaunt", "Le diadème de Serdaigle", "Nagini", "Le médaillon de Serpentard"],
+            "answer": 2
+        },
+        {
+            "question": "Qui est le véritable propriétaire de la baguette de Sureau avant Harry ?",
+            "choices": ["Dumbledore", "Voldemort", "Ollivander", "Grindelwald"],
+            "answer": 0
+        },
+        {
+            "question": "Dans quel tome apprend-on que Dumbledore était amoureux de Grindelwald ?",
+            "choices": ["La Coupe de Feu", "L'Ordre du Phénix", "Les Reliques de la Mort", "Le Prince de Sang-Mêlé"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le nom du loup-garou qui sauve Harry dans le troisième tome ?",
+            "choices": ["Fenrir Greyback", "Remus Lupin", "Sirius Black", "Buckbeak"],
+            "answer": 1
+        }
+    ],
+    "star_wars": [
+        {
+            "question": "Quel est le véritable nom de Dark Vador ?",
+            "choices": ["Anakin Skywalker", "Luke Skywalker", "Palpatine", "Obi-Wan Kenobi"],
+            "answer": 0
+        },
+        {
+            "question": "Qui était le maître de Yoda pendant sa formation Jedi ?",
+            "choices": ["Qui-Gon Jinn", "Sifo-Dyas", "N'Zoth", "Les archives Jedi ne révèlent pas son nom"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le nom de la planète natale de Chewbacca ?",
+            "choices": ["Endor", "Kashyyyk", "Tatooine", "Hoth"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a tué Jabba le Hutt ?",
+            "choices": ["Luke Skywalker", "Leia Organa", "Han Solo", "Boba Fett"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la particularité de l'Étoile Noire ?",
+            "choices": ["Elle est invincible", "Elle peut détruire une planète entière", "Elle sert uniquement de station de commandement", "Elle est une arme biologique"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est l'apprenti de Dark Sidious avant Dark Vador ?",
+            "choices": ["Dark Maul", "Count Dooku", "Anakin Skywalker", "Savage Opress"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle est la vraie identité du Commandant Cody ?",
+            "choices": ["Un clone de Jango Fett", "Un humain original", "Un droïde", "Un Jedi"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le sabre de Kylo Ren ?",
+            "choices": ["Un sabre à lame classique", "Un sabre à lame courbe", "Un sabre avec garde transversale et lame instable", "Un sabre double"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le nom du droïde qui transporte les plans de l'Étoile Noire ?",
+            "choices": ["R2-D2", "C-3PO", "BB-8", "K-2SO"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle planète abrite le temple Jedi dans l'Épisode I ?",
+            "choices": ["Coruscant", "Naboo", "Tatooine", "Dagobah"],
+            "answer": 0
+        },
+        {
+            "question": "Qui a forgé les sabres de Dark Vador et Luke ?",
+            "choices": ["Obi-Wan Kenobi", "Anakin Skywalker", "Kyber crystals, par les Jedi et Sith", "Yoda"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle est la vraie nature de Snoke selon les films ?",
+            "choices": ["Un Sith classique", "Une création de Palpatine", "Un ancien Jedi", "Un droïde"],
+            "answer": 1
+        },
+        {
+            "question": "Quel chasseur de primes capture Han Solo dans L'Empire Contre-Attaque ?",
+            "choices": ["Boba Fett", "IG-88", "Dengar", "Bossk"],
+            "answer": 0
+        },
+        {
+            "question": "Qui tue le Comte Dooku ?",
+            "choices": ["Yoda", "Obi-Wan Kenobi", "Anakin Skywalker", "Mace Windu"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le rôle de Mon Mothma ?",
+            "choices": ["Membre du Conseil Jedi", "Leader de l'Alliance Rebelle", "Sénatrice de Coruscant", "Commandante impériale"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la planète d'origine de Rey ?",
+            "choices": ["Jakku", "Tatooine", "Ahch-To", "Naboo"],
+            "answer": 0
+        },
+        {
+            "question": "Qui est le père biologique de Kylo Ren ?",
+            "choices": ["Luke Skywalker", "Han Solo", "Anakin Skywalker", "Palpatine"],
+            "answer": 1
+        },
+        {
+            "question": "Quel Jedi est célèbre pour sa technique du \"Mind Trick\" ?",
+            "choices": ["Yoda", "Obi-Wan Kenobi", "Luke Skywalker", "Qui-Gon Jinn"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le nom du vaisseau de Han Solo ?",
+            "choices": ["X-Wing", "Star Destroyer", "Faucon Millenium", "TIE Fighter"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle est la planète où s'entraînent les Jedi exilés et où Luke cache le dernier sabre dans l'Épisode VIII ?",
+            "choices": ["Ahch-To", "Dagobah", "Endor", "Hoth"],
+            "answer": 0
+        }
+    ],
+    "animaux": [
+        {
+            "question": "Quel est l'animal terrestre le plus rapide du monde ?",
+            "choices": ["Lion", "Guépard", "Antilope", "Élan"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la particularité des axolotls ?",
+            "choices": ["Ils changent de couleur selon leur humeur", "Ils peuvent régénérer membres et organes", "Ils vivent sous terre uniquement", "Ils peuvent voler"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le plus grand mammifère marin ?",
+            "choices": ["Cachalot", "Orque", "Baleine bleue", "Requin baleine"],
+            "answer": 2
+        },
+        {
+            "question": "Quel oiseau ne peut pas voler mais est un excellent nageur ?",
+            "choices": ["Manchot", "Autruche", "Kiwi", "Casoar"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle est la durée de vie moyenne d'une tortue des Galápagos ?",
+            "choices": ["50 ans", "100 ans", "150 ans", "200 ans"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le plus grand prédateur terrestre vivant aujourd'hui ?",
+            "choices": ["Lion", "Tigre de Sibérie", "Ours polaire", "Crocodile marin"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le seul mammifère capable de voler activement ?",
+            "choices": ["Écureuil volant", "Chauve-souris", "Colibri", "Kiwi"],
+            "answer": 1
+        },
+        {
+            "question": "Quel animal possède le plus grand cerveau proportionnel à son corps ?",
+            "choices": ["Dauphin", "Pieuvre", "Corbeau", "Chimpanzé"],
+            "answer": 1
+        },
+        {
+            "question": "Quel insecte peut survivre plusieurs années sous forme d'œuf avant d'éclore ?",
+            "choices": ["Fourmi", "Termite", "Phasme", "Sauterelle"],
+            "answer": 2
+        },
+        {
+            "question": "Quel poisson est capable de \"marcher\" sur terre grâce à ses nageoires ?",
+            "choices": ["Poisson-ange", "Poisson-perroquet", "Poisson-lune", "Poisson-poumon (coelacanthe ou poisson scie)"],
+            "answer": 3
+        },
+        {
+            "question": "Quel animal peut survivre plusieurs années sans eau grâce à sa capacité à concentrer son urine ?",
+            "choices": ["Chameau", "Kangourou", "Dromadaire", "Fennec"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le plus grand serpent vivant aujourd'hui ?",
+            "choices": ["Cobra royal", "Python réticulé", "Anaconda vert", "Boa constrictor"],
+            "answer": 1
+        },
+        {
+            "question": "Quel oiseau est capable d'imiter la voix humaine avec une grande précision ?",
+            "choices": ["Perroquet gris du Gabon", "Corbeau", "Pie", "Merle"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le mammifère le plus petit du monde ?",
+            "choices": ["Souris pygmée", "Chauve-souris bourdon", "Musaraigne", "Opossum nain"],
+            "answer": 1
+        },
+        {
+            "question": "Quel animal a la morsure la plus puissante ?",
+            "choices": ["Lion", "Crocodile du Nil", "Alligator", "Hyène"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la particularité des caméléons ?",
+            "choices": ["Changer de couleur pour se fondre dans le décor", "Voir à 360°", "Attraper leur proie avec leur langue ultrarapide", "Toutes les réponses ci-dessus"],
+            "answer": 3
+        },
+        {
+            "question": "Quel animal est connu pour mourir après s'être reproduit ?",
+            "choices": ["Saumon", "Écureuil", "Corbeau", "Tortue"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le plus gros insecte volant ?",
+            "choices": ["Libellule géante", "Phasme géant", "Mante religieuse géante", "Goliath birdeater"],
+            "answer": 0
+        },
+        {
+            "question": "Quel animal est capable de survivre dans l'espace pendant plusieurs jours ?",
+            "choices": ["Araignée", "Tardigrade", "Méduse", "Fourmi"],
+            "answer": 1
+        },
+        {
+            "question": "Quel mammifère marin a le plus long souffle ?",
+            "choices": ["Cachalot", "Dauphin", "Baleine bleue", "Narval"],
+            "answer": 2
+        }
+    ],
+    "culture_g": [
+        {
+            "question": "Quelle est la capitale de la Mongolie ?",
+            "choices": ["Oulan-Bator", "Astana", "Tachkent", "Bichkek"],
+            "answer": 0
+        },
+        {
+            "question": "Quel scientifique a formulé la théorie de la relativité restreinte ?",
+            "choices": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Niels Bohr"],
+            "answer": 1
+        },
+        {
+            "question": "Quel peintre est célèbre pour ses \"Nymphéas\" ?",
+            "choices": ["Vincent van Gogh", "Claude Monet", "Paul Cézanne", "Pierre-Auguste Renoir"],
+            "answer": 1
+        },
+        {
+            "question": "Dans quelle ville se trouve le musée du Prado ?",
+            "choices": ["Barcelone", "Madrid", "Lisbonne", "Rome"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a écrit \"Les Misérables\" ?",
+            "choices": ["Gustave Flaubert", "Victor Hugo", "Émile Zola", "Alexandre Dumas"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la molécule responsable du goût sucré ?",
+            "choices": ["Glucose", "Saccharose", "Fructose", "Tous les trois"],
+            "answer": 3
+        },
+        {
+            "question": "Quel océan borde la côte est de l'Afrique ?",
+            "choices": ["Atlantique", "Indien", "Pacifique", "Arctique"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est l'élément chimique ayant pour symbole \"Au\" ?",
+            "choices": ["Argent", "Or", "Aluminium", "Plomb"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a composé \"La Flûte enchantée\" ?",
+            "choices": ["Beethoven", "Mozart", "Bach", "Haydn"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la plus grande planète du système solaire ?",
+            "choices": ["Saturne", "Jupiter", "Neptune", "Uranus"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la langue officielle du Brésil ?",
+            "choices": ["Espagnol", "Portugais", "Anglais", "Français"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a peint \"La Nuit étoilée\" ?",
+            "choices": ["Paul Gauguin", "Vincent van Gogh", "Claude Monet", "Henri Matisse"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la plus grande chaîne de montagnes du monde ?",
+            "choices": ["Alpes", "Andes", "Himalaya", "Rocheuses"],
+            "answer": 2
+        },
+        {
+            "question": "Qui a découvert la pénicilline ?",
+            "choices": ["Louis Pasteur", "Alexander Fleming", "Marie Curie", "Robert Koch"],
+            "answer": 1
+        },
+        {
+            "question": "Dans quel pays se trouve la ville de Marrakech ?",
+            "choices": ["Algérie", "Maroc", "Tunisie", "Égypte"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a écrit \"1984\" ?",
+            "choices": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Philip K. Dick"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la formule chimique de l'eau ?",
+            "choices": ["H₂O", "CO₂", "O₂", "H₂SO₄"],
+            "answer": 0
+        },
+        {
+            "question": "Quel animal est l'emblème national de l'Australie ?",
+            "choices": ["Kangourou", "Émeu", "Koala", "Dingo"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le fleuve le plus long du monde ?",
+            "choices": ["Amazone", "Nil", "Yangtsé", "Mississippi"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est le créateur de Sherlock Holmes ?",
+            "choices": ["Agatha Christie", "Arthur Conan Doyle", "Edgar Allan Poe", "H.G. Wells"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la plus grande île du monde ?",
+            "choices": ["Madagascar", "Groenland", "Borneo", "Islande"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a peint \"Le Cri\" ?",
+            "choices": ["Edvard Munch", "Vincent van Gogh", "Gustav Klimt", "Paul Cézanne"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle est la distance approximative entre la Terre et le Soleil ?",
+            "choices": ["150 millions de km", "1 million de km", "150 000 km", "1 milliard de km"],
+            "answer": 0
+        },
+        {
+            "question": "Qui a écrit \"Les Fleurs du mal\" ?",
+            "choices": ["Victor Hugo", "Charles Baudelaire", "Paul Verlaine", "Arthur Rimbaud"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le métal principal du bronze ?",
+            "choices": ["Fer et carbone", "Cuivre et étain", "Aluminium et cuivre", "Argent et or"],
+            "answer": 1
+        },
+        {
+            "question": "Dans quelle ville se trouve la Tour de Pise ?",
+            "choices": ["Florence", "Pise", "Rome", "Milan"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a composé la musique de Le Bon, la Brute et le Truand ?",
+            "choices": ["Ennio Morricone", "Hans Zimmer", "John Williams", "Danny Elfman"],
+            "answer": 0
+        },
+        {
+            "question": "Quel pays est surnommé \"le pays du Soleil levant\" ?",
+            "choices": ["Chine", "Japon", "Corée", "Thaïlande"],
+            "answer": 1
+        },
+        {
+            "question": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+            "choices": ["Oxygène", "Azote", "Dioxyde de carbone", "Hélium"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est le philosophe grec auteur de \"La République\" ?",
+            "choices": ["Aristote", "Socrate", "Platon", "Epicure"],
+            "answer": 2
+        },
+        {
+            "question": "Quel pays est le plus peuplé du monde ?",
+            "choices": ["Inde", "Chine", "États-Unis", "Indonésie"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est l'organe le plus volumineux du corps humain ?",
+            "choices": ["Cœur", "Poumon", "Peau", "Foie"],
+            "answer": 2
+        },
+        {
+            "question": "Qui a écrit \"À la recherche du temps perdu\" ?",
+            "choices": ["Albert Camus", "Marcel Proust", "Gustave Flaubert", "André Gide"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle ville est surnommée \"la Ville Lumière\" ?",
+            "choices": ["New York", "Paris", "Londres", "Rome"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est l'organe du corps humain qui produit l'insuline ?",
+            "choices": ["Foie", "Pancréas", "Rein", "Estomac"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a découvert l'Amérique en 1492 ?",
+            "choices": ["Marco Polo", "Christophe Colomb", "Ferdinand Magellan", "Amerigo Vespucci"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la plus grande chaîne volcanique active ?",
+            "choices": ["Les Alpes", "Les Andes", "La Ceinture de Feu du Pacifique", "L'Himalaya"],
+            "answer": 2
+        },
+        {
+            "question": "Quel roman commence par : \"Tous les enfants, sauf un, grandissent.\" ?",
+            "choices": ["Peter Pan", "Alice au pays des merveilles", "Le Petit Prince", "Pinocchio"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le symbole chimique du mercure ?",
+            "choices": ["Mg", "Hg", "Me", "Mc"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle civilisation a construit Machu Picchu ?",
+            "choices": ["Aztèques", "Mayas", "Incas", "Olmèques"],
+            "answer": 2
+        }
+    ],
+    "marvel": [
+        {
+            "question": "Quel est le vrai nom de Iron Man ?",
+            "choices": ["Steve Rogers", "Tony Stark", "Bruce Banner", "Peter Parker"],
+            "answer": 1
+        },
+        {
+            "question": "Quel métal compose le squelette et les griffes de Wolverine ?",
+            "choices": ["Adamantium", "Vibranium", "Carbonadium", "Uru"],
+            "answer": 0
+        },
+        {
+            "question": "Qui est le chef historique des X-Men ?",
+            "choices": ["Magneto", "Charles Xavier", "Cyclope", "Wolverine"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la particularité de Vision ?",
+            "choices": ["Il est un robot avec une âme humaine", "Il peut manipuler la densité et voler", "Il possède la pierre de l'esprit", "Toutes les réponses ci-dessus"],
+            "answer": 3
+        },
+        {
+            "question": "Quel super-héros peut s'étirer à l'infini ?",
+            "choices": ["Spider-Man", "Mr. Fantastic", "Ant-Man", "Deadpool"],
+            "answer": 1
+        },
+        {
+            "question": "Quel X-Men est capable de manipuler le temps ?",
+            "choices": ["Tornade", "Bishop", "Rachel Summers", "Aucun, mais Cable peut le faire"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le nom du frère de Scarlet Witch ?",
+            "choices": ["Mystique", "Psylocke", "Quicksilver", "Havok"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le métal du bouclier de Captain America ?",
+            "choices": ["Adamantium", "Vibranium", "Titanium", "Uru"],
+            "answer": 1
+        },
+        {
+            "question": "Quel X-Men possède une vision optique laser ?",
+            "choices": ["Cyclope", "Colossus", "Bishop", "Havok"],
+            "answer": 0
+        },
+        {
+            "question": "Qui est le principal ennemi de Thor dans Thor: Ragnarok ?",
+            "choices": ["Thanos", "Hela", "Galactus", "Ultron"],
+            "answer": 1
+        },
+        {
+            "question": "Quel super-héros a fondé les Avengers ?",
+            "choices": ["Iron Man", "Captain America", "Thor", "Hulk"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est le mutant capable de contrôler le métal ?",
+            "choices": ["Magneto", "Wolverine", "Colossus", "Havok"],
+            "answer": 0
+        },
+        {
+            "question": "Quel personnage est à la fois sorcier suprême et membre des Avengers ?",
+            "choices": ["Doctor Doom", "Doctor Strange", "Loki", "Scarlet Witch"],
+            "answer": 1
+        },
+        {
+            "question": "Quel X-Men a le pouvoir de manipuler l'énergie cosmique et de voler ?",
+            "choices": ["Angel", "Phoenix (Jean Grey)", "Cyclope", "Iceman"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle pierre de l'infini est dans le sceptre de Loki ?",
+            "choices": ["Pierre du Temps", "Pierre de l'Espace", "Pierre de l'Esprit", "Pierre du Pouvoir"],
+            "answer": 2
+        },
+        {
+            "question": "Quel Avenger est connu pour sa force surhumaine et sa peau verte ?",
+            "choices": ["Thor", "Hulk", "Vision", "Black Panther"],
+            "answer": 1
+        },
+        {
+            "question": "Quel X-Men a été transformé en vampire ?",
+            "choices": ["Wolverine", "Blade", "Dracula", "Aucun dans les X-Men classiques, Blade est séparé"],
+            "answer": 3
+        },
+        {
+            "question": "Quel héros est également connu sous le nom de \"Merc with a Mouth\" ?",
+            "choices": ["Deadpool", "Spider-Man", "Iron Man", "Deadshot"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le lien entre Quicksilver et Scarlet Witch dans les films ?",
+            "choices": ["Amis", "Frère et sœur", "Cousins", "Aucun lien"],
+            "answer": 1
+        },
+        {
+            "question": "Quel X-Men peut créer des doubles astrals de lui-même ?",
+            "choices": ["Nightcrawler", "Psylocke", "Shadowcat (Kitty Pryde)", "Mirage"],
+            "answer": 3
+        }
+    ],
+    "dc": [
+        {
+            "question": "Quel est le vrai nom de Superman ?",
+            "choices": ["Bruce Wayne", "Clark Kent", "Kal-El", "Barry Allen"],
+            "answer": 2
+        },
+        {
+            "question": "Qui est le Joker dans The Dark Knight (2008) ?",
+            "choices": ["Jared Leto", "Jack Nicholson", "Heath Ledger", "Joaquin Phoenix"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle est la faiblesse principale de Superman ?",
+            "choices": ["Kryptonite", "Feu", "Magie", "Tous les trois"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le vrai nom de Batman ?",
+            "choices": ["Bruce Wayne", "Clark Kent", "Barry Allen", "Oliver Queen"],
+            "answer": 0
+        },
+        {
+            "question": "Qui est le leader de la Justice League dans la majorité des versions ?",
+            "choices": ["Superman", "Batman", "Wonder Woman", "Flash"],
+            "answer": 0
+        },
+        {
+            "question": "Quel héros est surnommé \"L'homme le plus rapide du monde\" ?",
+            "choices": ["Superman", "Flash", "Green Lantern", "Aquaman"],
+            "answer": 1
+        },
+        {
+            "question": "Qui possède l'anneau qui crée des constructions de lumière solide ?",
+            "choices": ["Green Arrow", "Green Lantern", "Doctor Fate", "Shazam"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la véritable identité de Wonder Woman ?",
+            "choices": ["Diana Prince", "Hippolyta", "Artemis", "Donna Troy"],
+            "answer": 0
+        },
+        {
+            "question": "Quel vilain est le principal ennemi de Wonder Woman ?",
+            "choices": ["Ares", "Lex Luthor", "Brainiac", "Joker"],
+            "answer": 0
+        },
+        {
+            "question": "Quel héros DC est le roi d'Atlantis ?",
+            "choices": ["Aquaman", "Namor", "Poseidon", "Ocean Master"],
+            "answer": 0
+        },
+        {
+            "question": "Quel méchant est responsable de la création d'Harley Quinn ?",
+            "choices": ["Joker", "Lex Luthor", "Darkseid", "Brainiac"],
+            "answer": 0
+        },
+        {
+            "question": "Qui est le principal ennemi de Batman dans Gotham ?",
+            "choices": ["Joker", "Lex Luthor", "Black Manta", "Deathstroke"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle est la planète natale de Superman ?",
+            "choices": ["Krypton", "Mars", "Apokolips", "Tamaran"],
+            "answer": 0
+        },
+        {
+            "question": "Quel héros possède le lasso de vérité ?",
+            "choices": ["Wonder Woman", "Zatanna", "Catwoman", "Batgirl"],
+            "answer": 0
+        },
+        {
+            "question": "Qui est le leader des Teen Titans ?",
+            "choices": ["Robin / Dick Grayson", "Kid Flash", "Beast Boy", "Cyborg"],
+            "answer": 0
+        },
+        {
+            "question": "Quel vilain est l'ennemi juré de Flash et utilise la Speed Force ?",
+            "choices": ["Reverse-Flash (Eobard Thawne)", "Zoom", "Captain Cold", "Trickster"],
+            "answer": 0
+        },
+        {
+            "question": "Quel héros DC est associé à un marteau magique nommé Mjolnir ?",
+            "choices": ["Superman", "Thor", "Wonder Woman", "Aucun (Thor est Marvel)"],
+            "answer": 3
+        },
+        {
+            "question": "Qui est le père biologique de Superman selon les comics ?",
+            "choices": ["Jonathan Kent", "Jor-El", "Zod", "Lex Luthor"],
+            "answer": 1
+        },
+        {
+            "question": "Quel membre de la Justice League est un extraterrestre vert utilisant des pouvoirs psychiques ?",
+            "choices": ["Martian Manhunter", "Green Lantern", "Brainiac", "Hawkman"],
+            "answer": 0
+        },
+        {
+            "question": "Qui a créé l'univers DC Comics ?",
+            "choices": ["Stan Lee", "Bob Kane & Bill Finger", "Jerry Siegel & Joe Shuster", "Jack Kirby"],
+            "answer": 2
+        }
+    ],
+    "consoles": [
+        {
+            "question": "Quelle console a introduit le Xbox Game Pass ?",
+            "choices": ["Xbox", "Xbox 360", "Xbox One", "Xbox Series X"],
+            "answer": 2
+        },
+        {
+            "question": "Quel personnage est associe a la licence Halo ?",
+            "choices": ["Kratos", "Master Chief", "Nathan Drake", "Marcus Fenix"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle entreprise fabrique la Xbox ?",
+            "choices": ["Sony", "Nintendo", "Microsoft", "Sega"],
+            "answer": 2
+        },
+        {
+            "question": "Quel jeu est une exclusivite PlayStation ?",
+            "choices": ["Halo", "Forza Horizon", "The Last of Us", "Gears of War"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle console a introduit les trophees chez Sony ?",
+            "choices": ["PS2", "PS3", "PS4", "PS1"],
+            "answer": 1
+        },
+        {
+            "question": "Quel service permet de jouer en ligne sur PlayStation ?",
+            "choices": ["Xbox Live", "PlayStation Plus", "Game Pass", "Steam"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle manette propose des gachettes adaptatives ?",
+            "choices": ["DualShock 3", "Manette Xbox One", "DualSense", "Manette PS2"],
+            "answer": 2
+        },
+        {
+            "question": "Quel jeu est une exclusivite Xbox ?",
+            "choices": ["Uncharted", "Spider-Man", "Forza Horizon", "God of War"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle console a souffert du Red Ring of Death ?",
+            "choices": ["PS3", "Xbox 360", "PS4", "Xbox One"],
+            "answer": 1
+        },
+        {
+            "question": "Quel studio developpe The Last of Us ?",
+            "choices": ["Rockstar", "Naughty Dog", "Ubisoft", "EA"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle console utilisait des cartes memoire externes ?",
+            "choices": ["PS5", "PS4", "PS1", "Xbox Series X"],
+            "answer": 2
+        },
+        {
+            "question": "Quel jeu met en scene Aloy ?",
+            "choices": ["Horizon Zero Dawn", "Bloodborne", "Returnal", "Ratchet & Clank"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle console utilise un SSD ultra rapide pour reduire drastiquement les temps de chargement ?",
+            "choices": ["PS3", "Xbox 360", "PS5", "PS2"],
+            "answer": 2
+        },
+        {
+            "question": "Quel constructeur possede la licence Gears of War ?",
+            "choices": ["Sony", "Microsoft", "Nintendo", "Ubisoft"],
+            "answer": 1
+        },
+        {
+            "question": "Quel jeu a servi de demonstration pour la manette DualSense ?",
+            "choices": ["Astro's Playroom", "Gran Turismo", "Demon's Souls", "Death Stranding"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle console a introduit le Blu-ray ?",
+            "choices": ["Xbox 360", "PS3", "PS4", "Xbox One"],
+            "answer": 1
+        },
+        {
+            "question": "Quel studio est a l'origine de Halo a ses debuts ?",
+            "choices": ["343 Industries", "Bungie", "Rare", "Bethesda"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle fonctionnalite permet d'avoir automatiquement la meilleure version d'un jeu sur Xbox ?",
+            "choices": ["Quick Resume", "Smart Delivery", "Cloud Gaming", "Game Share"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle exclusivite PlayStation a ete developpee par Guerrilla Games ?",
+            "choices": ["Killzone", "Halo", "Fable", "Sea of Thieves"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle console proposait une retrocompatibilite PS2 complete a sa sortie (certains modeles) ?",
+            "choices": ["PS3", "PS4", "PS5", "PSP"],
+            "answer": 0
+        }
+    ],
+    "cinema": [
+        {
+            "question": "Dans quel film apparaît Jack Dawson ?",
+            "choices": ["Inception", "Titanic", "Avatar", "Gladiator"],
+            "answer": 1
+        },
+        {
+            "question": "Qui a réalisé Jurassic Park ?",
+            "choices": ["James Cameron", "Steven Spielberg", "Ridley Scott", "Tim Burton"],
+            "answer": 1
+        },
+        {
+            "question": "Dans quel film entend-on \"Pourquoi si sérieux ?\" ?",
+            "choices": ["The Dark Knight", "Joker", "Seven", "Fight Club"],
+            "answer": 0
+        },
+        {
+            "question": "Quel acteur joue Iron Man ?",
+            "choices": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Inception, que volent les personnages ?",
+            "choices": ["De l’argent", "Des souvenirs", "Des rêves", "Des identités"],
+            "answer": 2
+        },
+        {
+            "question": "Quel film a pour slogan \"La vie, c’est comme une boîte de chocolats\" ?",
+            "choices": ["The Green Mile", "Forrest Gump", "Seul au monde", "Rain Man"],
+            "answer": 1
+        },
+        {
+            "question": "Qui joue le Joker dans The Dark Knight ?",
+            "choices": ["Joaquin Phoenix", "Heath Ledger", "Jared Leto", "Jack Nicholson"],
+            "answer": 1
+        },
+        {
+            "question": "Dans quel film voit-on un parc rempli de dinosaures ?",
+            "choices": ["King Kong", "Jurassic Park", "Godzilla", "Avatar"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le métier principal de John Wick ?",
+            "choices": ["Policier", "Avocat", "Tueur à gages", "Médecin"],
+            "answer": 2
+        },
+        {
+            "question": "Dans Gladiator, quel est le nom du héros ?",
+            "choices": ["Spartacus", "Maximus", "César", "Brutus"],
+            "answer": 1
+        },
+        {
+            "question": "Quel film met en scène un naufrage spatial avec Matt Kowalski ?",
+            "choices": ["Interstellar", "Gravity", "The Martian", "Sunshine"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Fight Club, quelle est la première règle ?",
+            "choices": ["Toujours se battre", "Ne jamais parler du Fight Club", "Respecter les règles", "Gagner à tout prix"],
+            "answer": 1
+        },
+        {
+            "question": "Quel film parle d’un homme bloqué sur Mars ?",
+            "choices": ["Interstellar", "Gravity", "Seul sur Mars", "Apollo 13"],
+            "answer": 2
+        },
+        {
+            "question": "Qui a réalisé Inception ?",
+            "choices": ["Christopher Nolan", "Denis Villeneuve", "James Cameron", "Zack Snyder"],
+            "answer": 0
+        },
+        {
+            "question": "Dans Matrix, qui est \"l’Élu\" ?",
+            "choices": ["Morpheus", "Neo", "Trinity", "Smith"],
+            "answer": 1
+        },
+        {
+            "question": "Quel acteur joue Jack Sparrow ?",
+            "choices": ["Orlando Bloom", "Johnny Depp", "Brad Pitt", "Tom Cruise"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Seven, combien y a-t-il de péchés capitaux ?",
+            "choices": ["5", "6", "7", "8"],
+            "answer": 2
+        },
+        {
+            "question": "Quel film met en scène un rêve dans un rêve dans un rêve ?",
+            "choices": ["Matrix", "Inception", "Shutter Island", "Memento"],
+            "answer": 1
+        },
+        {
+            "question": "Dans Le Seigneur des anneaux : La Communauté de l'anneau, qui porte l’anneau ?",
+            "choices": ["Gandalf", "Aragorn", "Frodon", "Legolas"],
+            "answer": 2
+        },
+        {
+            "question": "Quel film a remporté l’Oscar du meilleur film en 1998 ?",
+            "choices": ["Titanic", "Braveheart", "Gladiator", "Le Patient anglais"],
+            "answer": 0
+        }
+    ],
+    "kaamelott": [
+        {
+            "question": "Quel est le vrai prénom romain d’Arthur ?",
+            "choices": ["Artorius", "Augustus", "Aurelius", "Antonius"],
+            "answer": 0
+        },
+        {
+            "question": "Dans quelle ville Arthur a-t-il été élevé enfant ?",
+            "choices": ["Rome", "Londinium", "Carmélide", "Alexandrie"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le nom de la femme qu’Arthur aime réellement ?",
+            "choices": ["Guenièvre", "Mevanwi", "Angharad", "Demetra"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le rôle de Elias de Kelliwic'h ?",
+            "choices": ["Prêtre", "Magicien rival", "Chevalier", "Espion"],
+            "answer": 1
+        },
+        {
+            "question": "Pourquoi Lancelot se retourne-t-il contre Arthur ?",
+            "choices": ["Pour le pouvoir", "Par jalousie et obsession", "Par trahison politique", "À cause de Merlin"],
+            "answer": 1
+        },
+        {
+            "question": "Quel peuple attaque régulièrement le royaume ?",
+            "choices": ["Les Vikings", "Les Burgondes", "Les Saxons", "Les Goths"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le nom de la mère de Guenièvre ?",
+            "choices": ["Séli", "Ygerne", "Anna", "Demetra"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le vrai problème de Merlin ?",
+            "choices": ["Il est trop vieux", "Sa magie est inefficace", "Il est paresseux", "Il est traître"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le statut de Karadoc avant d’être chevalier ?",
+            "choices": ["Paysan", "Bandit", "Seigneur", "Cuisinier"],
+            "answer": 1
+        },
+        {
+            "question": "Quelle est la particularité de Bohort ?",
+            "choices": ["Il est très courageux", "Il fuit le combat", "Il est stratège", "Il est muet"],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le nom du royaume de Léodagan ?",
+            "choices": ["Logres", "Carmélide", "Bretagne", "Aquitaine"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est Kadoc ?",
+            "choices": ["Le frère de Karadoc", "Un chevalier", "Un druide", "Un roi"],
+            "answer": 0
+        },
+        {
+            "question": "Pourquoi Arthur est-il souvent déprimé ?",
+            "choices": ["Il est malade", "Il est fatigué des chevaliers incompétents", "Il veut quitter le trône", "Il est hanté"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est le père de Lancelot ?",
+            "choices": ["Ban de Bénoïc", "Uther Pendragon", "Léodagan", "Karadoc"],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le métier de Venec ?",
+            "choices": ["Marchand louche", "Chevalier", "Soldat", "Prêtre"],
+            "answer": 0
+        },
+        {
+            "question": "Quel personnage est obsédé par la discipline et les règles ?",
+            "choices": ["Karadoc", "Perceval", "Lancelot", "Bohort"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le surnom donné à Perceval et Karadoc quand ils inventent leurs techniques ?",
+            "choices": ["Les stratèges", "Les génies", "Les maîtres du jeu", "Les semi-croustillants"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le principal défaut de Guenièvre ?",
+            "choices": ["Elle est méchante", "Elle est naïve", "Elle est manipulatrice", "Elle est ambitieuse"],
+            "answer": 1
+        },
+        {
+            "question": "Qui est à l’origine de la Table Ronde ?",
+            "choices": ["Merlin", "Arthur", "Uther Pendragon", "Les dieux"],
+            "answer": 2
+        },
+        {
+            "question": "Dans les derniers livres, quel est l’état mental d’Arthur ?",
+            "choices": ["Euphorique", "Dépressif et suicidaire", "Colérique", "Indifférent"],
+            "answer": 1
+        }
+    ]
+}
