@@ -3937,49 +3937,49 @@
             "answer": 1
         }
     ],
-    "hearthstone": [
+    "hearthstone_battlegrounds": [
         {
-            "question": "Quel est le héros de base du Mage ?",
+            "question": "Combien coûte le passage niveau 2 → 3 de la taverne (coût de base) ?",
             "choices": [
-                "Jaina Portvaillant",
-                "Gul'dan",
-                "Anduin Wrynn",
-                "Rexxar"
-            ],
-            "answer": 0
-        },
-        {
-            "question": "Quelle classe utilise le pouvoir héroïque \"Armure +\" ?",
-            "choices": [
-                "Paladin",
-                "Guerrier",
-                "Druide",
-                "Chaman"
+                "5",
+                "6",
+                "7",
+                "8"
             ],
             "answer": 1
         },
         {
-            "question": "Combien de cartes compose un deck classique ?",
+            "question": "Combien de serviteurs sont proposés au niveau de taverne 1 ?",
             "choices": [
-                "20",
-                "25",
-                "30",
-                "40"
+                "3",
+                "2",
+                "4",
+                "5"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Quel est le nombre maximum de pièces d'or à partir du tour 9 ?",
+            "choices": [
+                "10",
+                "9",
+                "11",
+                "12"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Combien coûte un \"Rafraîchir\" après avoir utilisé un effet gratuit ?",
+            "choices": [
+                "0",
+                "1",
+                "2",
+                "3"
             ],
             "answer": 2
         },
         {
-            "question": "Quelle classe invoque des totems ?",
-            "choices": [
-                "Prêtre",
-                "Démoniste",
-                "Voleur",
-                "Chaman"
-            ],
-            "answer": 3
-        },
-        {
-            "question": "Quel est le coût de la pièce (\"The Coin\") ?",
+            "question": "Combien de dégâts subit un joueur éliminé (minimum) ?",
             "choices": [
                 "0",
                 "1",
@@ -3989,154 +3989,154 @@
             "answer": 0
         },
         {
-            "question": "Quelle extension introduit les quêtes légendaires ?",
+            "question": "À quel niveau de taverne peut-on trouver des serviteurs légendaires (T6) ?",
             "choices": [
-                "Naxxramas",
-                "Un'Goro",
-                "Kobolds & Catacombes",
-                "Rastakhan"
-            ],
-            "answer": 1
-        },
-        {
-            "question": "Quel mot-clé permet d'attaquer immédiatement ?",
-            "choices": [
-                "Bouclier divin",
-                "Ruée",
-                "Charge",
-                "Provocation"
+                "4",
+                "5",
+                "6",
+                "7"
             ],
             "answer": 2
         },
         {
-            "question": "Quel dragon est connu pour dire \"Je suis éternel !\" ?",
+            "question": "Quel est l'effet d'un serviteur doré ?",
             "choices": [
-                "Alexstrasza",
-                "Malygos",
-                "Nozdormu",
-                "Ysera"
-            ],
-            "answer": 3
-        },
-        {
-            "question": "Quelle classe possède \"Connexion\" (Life Tap) ?",
-            "choices": [
-                "Démoniste",
-                "Mage",
-                "Prêtre",
-                "Voleur"
+                "Double son effet",
+                "Triple ses stats uniquement",
+                "Double ses stats",
+                "Donne une carte bonus"
             ],
             "answer": 0
         },
         {
-            "question": "Quelle carte donne +1/+1 à tous les serviteurs ?",
+            "question": "Combien de copies sont nécessaires pour créer un triple ?",
             "choices": [
-                "Rugissement sauvage",
-                "Championne en vrai-argent",
-                "Puissance sauvage",
-                "Chef de guerre loup-de-givre"
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quelle mécanique permet d'augmenter la puissance sur plusieurs tours ?",
+            "choices": [
+                "Tempo",
+                "Burst",
+                "Scaling",
+                "Trade"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Quel type est le plus lié aux gains de pièces supplémentaires ?",
+            "choices": [
+                "Dragons",
+                "Bêtes",
+                "Élémentaires",
+                "Pirates"
             ],
             "answer": 3
         },
         {
-            "question": "Quelle carte invoque des recrues de la Main d'argent ?",
+            "question": "Que se passe-t-il si plusieurs joueurs sont éliminés au même tour ?",
             "choices": [
-                "Appel aux armes",
-                "Niveau supérieur !",
-                "Consécration",
-                "Égalité"
-            ],
-            "answer": 1
-        },
-        {
-            "question": "Quel dieu très ancien dit \"Yogg-Saron\" ?",
-            "choices": [
-                "C'Thun",
-                "Yogg-Saron",
-                "N'Zoth",
-                "Y'Shaarj"
-            ],
-            "answer": 1
-        },
-        {
-            "question": "Quel effet a \"Métamorphose\" ?",
-            "choices": [
-                "Inflige 6 dégâts",
-                "Transforme en mouton",
-                "Silence un serviteur",
-                "Pioche 2 cartes"
-            ],
-            "answer": 1
-        },
-        {
-            "question": "Quel serviteur donne +2/+2 aux autres murlocs ?",
-            "choices": [
-                "Chef murloc",
-                "Oracle froide-lumière",
-                "Murloc tidehunter",
-                "Murloc warleader"
+                "Classement aléatoire",
+                "Même classement",
+                "Match rejoué",
+                "Classement selon PV restants"
             ],
             "answer": 3
         },
         {
-            "question": "Quelle mécanique permet d'améliorer une carte en main ?",
+            "question": "Quel est le rôle principal du \"tempo\" en early game ?",
+            "choices": [
+                "Accumuler de l'or",
+                "Monter taverne rapidement",
+                "Gagner les combats immédiatement",
+                "Chercher des triples"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Quel type est connu pour générer des serviteurs en combat ?",
+            "choices": [
+                "Méca",
+                "Bêtes",
+                "Dragons",
+                "Démons"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quelle mécanique est spécifique aux Élémentaires ?",
             "choices": [
                 "Cri de guerre",
-                "Furie des vents",
-                "Corruption",
-                "Adaptation"
+                "Recrutement",
+                "Effets liés aux achats successifs",
+                "Bouclier divin"
             ],
             "answer": 2
         },
         {
-            "question": "Quel est le coût de base de \"Ragnaros\" ?",
+            "question": "Quel est le principal avantage de \"geler\" en early game ?",
             "choices": [
-                "6",
-                "7",
-                "8",
-                "9"
-            ],
-            "answer": 2
-        },
-        {
-            "question": "Quelle extension contient \"Chevalier de la mort\" ?",
-            "choices": [
-                "Chevaliers du Trône de glace",
-                "Icecrown",
-                "Catacombes",
-                "Outreterre"
-            ],
-            "answer": 0
-        },
-        {
-            "question": "Quel effet a un \"Secret\" ?",
-            "choices": [
-                "Effet aléatoire immédiat",
-                "Effet passif",
-                "Effet permanent",
-                "Effet caché déclenché"
+                "Économiser de l'or",
+                "Éviter les combats",
+                "Augmenter les stats",
+                "Préparer un triple"
             ],
             "answer": 3
         },
         {
-            "question": "Quel héros utilise des poisons sur ses armes ?",
+            "question": "Quel est le nombre maximum de serviteurs dans la taverne au niveau 6 ?",
             "choices": [
-                "Voleur",
-                "Guerrier",
-                "Chasseur",
-                "Paladin"
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quelle stratégie consiste à ignorer le board pour monter vite ?",
+            "choices": [
+                "Greed",
+                "Tempo",
+                "Control",
+                "Pivot"
             ],
             "answer": 0
         },
         {
-            "question": "Quelle carte est célèbre pour être totalement aléatoire ?",
+            "question": "Quel facteur influence les dégâts infligés en fin de combat ?",
             "choices": [
-                "Reno Jackson",
-                "Dr Boom",
-                "Yogg-Saron",
-                "Leeroy Jenkins"
+                "Nombre de tours",
+                "Héros choisi",
+                "Or restant",
+                "Niveau de taverne + serviteurs survivants"
             ],
-            "answer": 2
+            "answer": 3
+        },
+        {
+            "question": "Quel type bénéficie le plus des effets de mort (deathrattle) ?",
+            "choices": [
+                "Dragons",
+                "Bêtes",
+                "Pirates",
+                "Nagas"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quel concept désigne un changement complet de composition en cours de partie ?",
+            "choices": [
+                "Scaling",
+                "Tempo",
+                "Snowball",
+                "Pivot"
+            ],
+            "answer": 3
         }
     ]
 }
