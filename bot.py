@@ -8,7 +8,7 @@ import random
 import asyncio
 from datetime import datetime
 from contextlib import suppress
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 from urllib import error as urllib_error
 from urllib import request as urllib_request
 
@@ -48,7 +48,7 @@ QUESTION_POINTS = 500
 NEXT_QUESTION_DELAY = 10
 DEFAULT_QUESTION_COUNT = 20
 DEFAULT_ANNOUNCE_DELAY_MINUTES = 5
-QUIZ_LAUNCHER_ROLE_ID = int(os.getenv("QUIZ_LAUNCHER_ROLE_ID", "1157044417526509578"))
+QUIZ_LAUNCHER_ROLE_NAME = os.getenv("QUIZ_LAUNCHER_ROLE_NAME", "quiz-launcher")
 POINTS_EMOJI = "🍓"
 
 
@@ -68,7 +68,7 @@ def has_quiz_launcher_role(member: discord.abc.User) -> bool:
     if not isinstance(member, discord.Member):
         return False
 
-    return any(role.id == QUIZ_LAUNCHER_ROLE_ID for role in member.roles)
+    return any(role.name.lower() == QUIZ_LAUNCHER_ROLE_NAME.lower() for role in member.roles)
 
 
 def is_ignorable_interaction_error(error: Exception) -> bool:
@@ -288,35 +288,46 @@ async def run_announcement_countdown(
     except discord.HTTPException:
         return
 
-    remaining = delay_seconds
+    loop = asyncio.get_event_loop()
+    start_time = loop.time()
+    total_paused = 0.0
+    pause_start: Optional[float] = None
+    last_remaining = delay_seconds
     final_message = None
-    
-    try:
-        while remaining > 0 and not session.stopped:
-            await asyncio.sleep(1)
-            if session.paused:
-                await message.edit(content=build_content(remaining))
-                if final_message:
-                    try:
-                        await final_message.edit(content=build_final_countdown(remaining))
-                    except (discord.NotFound, discord.HTTPException):
-                        pass
-                continue
 
-            remaining -= 1
+    try:
+        while not session.stopped:
+            now = loop.time()
+
+            if session.paused:
+                if pause_start is None:
+                    pause_start = now
+                remaining = last_remaining
+            else:
+                if pause_start is not None:
+                    total_paused += now - pause_start
+                    pause_start = None
+                elapsed = (now - start_time) - total_paused
+                remaining = max(0, delay_seconds - int(elapsed))
+                last_remaining = remaining
+
+            if remaining <= 0:
+                break
+
             await message.edit(content=build_content(remaining))
-            
-            # Envoyer/mettre à jour le message de compte à rebours final à 60 secondes
-            if remaining == 60:
+
+            if remaining <= 60 and final_message is None:
                 try:
                     final_message = await channel.send(build_final_countdown(remaining))
                 except discord.HTTPException:
                     final_message = None
-            elif final_message and remaining > 0 and remaining <= 60:
+            elif final_message and remaining <= 60:
                 try:
                     await final_message.edit(content=build_final_countdown(remaining))
                 except (discord.NotFound, discord.HTTPException):
                     final_message = None
+
+            await asyncio.sleep(1)
     except (discord.NotFound, discord.HTTPException):
         return
 
@@ -371,6 +382,7 @@ async def run_quiz(
     selected_questions = random.sample(questions, k=question_count)
 
     session_scores: Dict[int, int] = {}
+    participant_ids: Set[int] = set()
 
     try:
         for index, q in enumerate(selected_questions, start=1):
@@ -392,6 +404,7 @@ async def run_quiz(
                 correct_index=q["answer"],
                 start_time=discord.utils.utcnow(),
                 session_scores=session_scores,
+                participant_ids=participant_ids,
             )
             message = await channel.send(embed=embed, view=view)
             view.message = message
@@ -414,8 +427,8 @@ async def run_quiz(
         if session.stopped:
             return None
 
-        if not session_scores:
-            await channel.send(f"Quizz termine. Personne n'a marque de {POINTS_EMOJI}.")
+        if not participant_ids:
+            await channel.send("Quizz termine. Personne n'a participe.")
             return None
 
         sorted_scores = sorted(
@@ -471,12 +484,14 @@ class QuizView(discord.ui.View):
         correct_index: int,
         start_time: datetime,
         session_scores: Dict[int, int],
+        participant_ids: Set[int],
     ):
         super().__init__(timeout=QUESTION_TIME_LIMIT)
         self.choices = choices
         self.correct_index = correct_index
         self.start_time = start_time
         self.session_scores = session_scores
+        self.participant_ids = participant_ids
         self.message: Optional[discord.Message] = None
         self.user_answers: Dict[int, Dict[str, float | int]] = {}
         self.revealed = False
@@ -492,6 +507,9 @@ class QuizView(discord.ui.View):
                 "Le quizz est en pause.", ephemeral=True
             )
             return
+        self.participant_ids.add(interaction.user.id)
+        self.session_scores.setdefault(interaction.user.id, 0)
+        scores.setdefault(interaction.user.id, 0)
         elapsed = self.get_elapsed_seconds()
         self.user_answers[interaction.user.id] = {
             "index": index,
@@ -506,6 +524,9 @@ class QuizView(discord.ui.View):
         if self.revealed:
             return
         self.revealed = True
+        for user_id in self.participant_ids:
+            self.session_scores.setdefault(user_id, 0)
+            scores.setdefault(user_id, 0)
         for user_id, payload in self.user_answers.items():
             if int(payload["index"]) == self.correct_index:
                 points = compute_score(float(payload["elapsed"]))
@@ -601,9 +622,9 @@ async def quiz_slash(
     except (discord.NotFound, discord.HTTPException):
         return
 
-    if not has_quiz_launcher_role(interaction.user):
+    if not can_manage_quiz(interaction.user, interaction.guild):
         await interaction.followup.send(
-            "Tu n'as pas le role requis pour lancer /quiz.", ephemeral=True
+            "Tu dois etre administrateur ou avoir 'Gerer le serveur' pour lancer /quiz.", ephemeral=True
         )
         return
 

@@ -57,7 +57,7 @@
         },
         {
             "question": "Que découvre-t-on à la fin d'Extinction ?",
-            "choices": ["La Terre est restaurée", "Les ARKs tombent vers la Terre", "Rockwell revient", "Les Titans gagnent"],
+            "choices": ["La Terre est détruite", "Les ARKs tombent vers la Terre", "Rockwell revient", "Les Titans gagnent"],
             "answer": 1
         },
         {
@@ -1990,6 +1990,108 @@
             "question": "Dans les derniers livres, quel est l’état mental d’Arthur ?",
             "choices": ["Euphorique", "Dépressif et suicidaire", "Colérique", "Indifférent"],
             "answer": 1
+        }
+    ],
+    "hearthstone": [
+        {
+            "question": "Quel est le héros de base du Mage ?",
+            "choices": ["Jaina Portvaillant", "Gul'dan", "Anduin Wrynn", "Rexxar"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle classe utilise le pouvoir héroïque \"Armure +\" ?",
+            "choices": ["Paladin", "Guerrier", "Druide", "Chaman"],
+            "answer": 1
+        },
+        {
+            "question": "Combien de cartes compose un deck classique ?",
+            "choices": ["20", "25", "30", "40"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle classe invoque des totems ?",
+            "choices": ["Prêtre", "Démoniste", "Voleur", "Chaman"],
+            "answer": 3
+        },
+        {
+            "question": "Quel est le coût de la pièce (\"The Coin\") ?",
+            "choices": ["0", "1", "2", "3"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle extension introduit les quêtes légendaires ?",
+            "choices": ["Naxxramas", "Un'Goro", "Kobolds & Catacombes", "Rastakhan"],
+            "answer": 1
+        },
+        {
+            "question": "Quel mot-clé permet d'attaquer immédiatement ?",
+            "choices": ["Bouclier divin", "Ruée", "Charge", "Provocation"],
+            "answer": 2
+        },
+        {
+            "question": "Quel dragon est connu pour dire \"Je suis éternel !\" ?",
+            "choices": ["Alexstrasza", "Malygos", "Nozdormu", "Ysera"],
+            "answer": 3
+        },
+        {
+            "question": "Quelle classe possède \"Connexion\" (Life Tap) ?",
+            "choices": ["Démoniste", "Mage", "Prêtre", "Voleur"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle carte donne +1/+1 à tous les serviteurs ?",
+            "choices": ["Rugissement sauvage", "Championne en vrai-argent", "Puissance sauvage", "Chef de guerre loup-de-givre"],
+            "answer": 3
+        },
+        {
+            "question": "Quelle carte invoque des recrues de la Main d'argent ?",
+            "choices": ["Appel aux armes", "Niveau supérieur !", "Consécration", "Égalité"],
+            "answer": 1
+        },
+        {
+            "question": "Quel dieu très ancien dit \"Yogg-Saron\" ?",
+            "choices": ["C'Thun", "Yogg-Saron", "N'Zoth", "Y'Shaarj"],
+            "answer": 1
+        },
+        {
+            "question": "Quel effet a \"Métamorphose\" ?",
+            "choices": ["Inflige 6 dégâts", "Transforme en mouton", "Silence un serviteur", "Pioche 2 cartes"],
+            "answer": 1
+        },
+        {
+            "question": "Quel serviteur donne +2/+2 aux autres murlocs ?",
+            "choices": ["Chef murloc", "Oracle froide-lumière", "Murloc tidehunter", "Murloc warleader"],
+            "answer": 3
+        },
+        {
+            "question": "Quelle mécanique permet d'améliorer une carte en main ?",
+            "choices": ["Cri de guerre", "Furie des vents", "Corruption", "Adaptation"],
+            "answer": 2
+        },
+        {
+            "question": "Quel est le coût de base de \"Ragnaros\" ?",
+            "choices": ["6", "7", "8", "9"],
+            "answer": 2
+        },
+        {
+            "question": "Quelle extension contient \"Chevalier de la mort\" ?",
+            "choices": ["Icecrown", "Chevaliers du Trône de glace", "Catacombes", "Outreterre"],
+            "answer": 1
+        },
+        {
+            "question": "Quel effet a un \"Secret\" ?",
+            "choices": ["Effet aléatoire immédiat", "Effet caché déclenché", "Effet permanent", "Effet passif"],
+            "answer": 1
+        },
+        {
+            "question": "Quel héros utilise des poisons sur ses armes ?",
+            "choices": ["Voleur", "Guerrier", "Chasseur", "Paladin"],
+            "answer": 0
+        },
+        {
+            "question": "Quelle carte est célèbre pour être totalement aléatoire ?",
+            "choices": ["Reno Jackson", "Dr Boom", "Yogg-Saron", "Leeroy Jenkins"],
+            "answer": 2
         }
     ]
 }
