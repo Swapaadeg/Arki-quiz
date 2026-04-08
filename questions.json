@@ -4138,5 +4138,207 @@
             ],
             "answer": 3
         }
+    ],
+    "dinosaures": [
+        {
+            "question": "Quel groupe inclut les dinosaures à bassin \"d'oiseau\" ?",
+            "choices": [
+                "Saurischia",
+                "Ornithischia",
+                "Theropoda",
+                "Sauropoda"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quel dinosaure a été retrouvé avec des preuves directes de plumes complexes ?",
+            "choices": [
+                "Allosaurus",
+                "Sinosauropteryx",
+                "Microraptor",
+                "Iguanodon"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Quelle formation géologique est célèbre pour ses fossiles de dinosaures en Mongolie ?",
+            "choices": [
+                "Morrison Formation",
+                "Hell Creek Formation",
+                "Nemegt Formation",
+                "Santana Formation"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Quel dinosaure possédait des bras extrêmement réduits proportionnellement ?",
+            "choices": [
+                "Carnotaurus",
+                "Tyrannosaurus rex",
+                "Abelisaurus",
+                "Tous les précédents"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Quel dinosaure herbivore possédait un pouce en forme de pointe ?",
+            "choices": [
+                "Iguanodon",
+                "Hadrosaurus",
+                "Stegosaurus",
+                "Plateosaurus"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Quel clade inclut les dinosaures carnivores bipèdes ?",
+            "choices": [
+                "Sauropodomorpha",
+                "Theropoda",
+                "Ornithopoda",
+                "Ceratopsia"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quel est le plus ancien dinosaure connu (ou parmi les plus anciens) ?",
+            "choices": [
+                "Coelophysis",
+                "Herrerasaurus",
+                "Velociraptor",
+                "Allosaurus"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quel dinosaure est connu pour avoir vécu dans un environnement semi-aquatique ?",
+            "choices": [
+                "Spinosaurus",
+                "Giganotosaurus",
+                "Dilophosaurus",
+                "Deinonychus"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Quelle théorie explique le mieux la disparition des dinosaures non aviens ?",
+            "choices": [
+                "Maladie globale",
+                "Compétition avec les mammifères",
+                "Impact météoritique + volcanisme",
+                "Changement de gravité"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Quel dinosaure possédait une double rangée de plaques osseuses dorsales ?",
+            "choices": [
+                "Ankylosaurus",
+                "Stegosaurus",
+                "Kentrosaurus",
+                "Huayangosaurus"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quel groupe comprend les dinosaures à long cou comme Diplodocus ?",
+            "choices": [
+                "Theropoda",
+                "Sauropodomorpha",
+                "Marginocephalia",
+                "Ornithopoda"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quel dinosaure avait une mâchoire adaptée à la pêche ?",
+            "choices": [
+                "Baryonyx",
+                "Carnotaurus",
+                "Allosaurus",
+                "Ceratosaurus"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Quelle est la période la plus ancienne du Mésozoïque ?",
+            "choices": [
+                "Jurassique",
+                "Crétacé",
+                "Trias",
+                "Permien"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Quel dinosaure est associé à des combats de tête (crâne épais) mais avec débat scientifique ?",
+            "choices": [
+                "Pachycephalosaurus",
+                "Styracosaurus",
+                "Parasaurolophus",
+                "Oviraptor"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Quelle structure permet de classer les dinosaures en deux grands groupes ?",
+            "choices": [
+                "Le crâne",
+                "La dentition",
+                "Le bassin",
+                "Les griffes"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Quel dinosaure est souvent cité comme preuve de cannibalisme chez les théropodes ?",
+            "choices": [
+                "Allosaurus",
+                "Velociraptor",
+                "Spinosaurus",
+                "Dilophosaurus"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Quel dinosaure possédait quatre ailes (plumes sur bras et pattes) ?",
+            "choices": [
+                "Archaeopteryx",
+                "Microraptor",
+                "Troodon",
+                "Compsognathus"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Quelle formation est célèbre pour la fin des dinosaures en Amérique du Nord ?",
+            "choices": [
+                "Morrison Formation",
+                "Cloverly Formation",
+                "Hell Creek Formation",
+                "Lance Formation"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Quel dinosaure avait une crête utilisée possiblement pour produire des sons ?",
+            "choices": [
+                "Parasaurolophus",
+                "Stegosaurus",
+                "Ankylosaurus",
+                "Diplodocus"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Quelle innovation évolutive majeure relie directement dinosaures et oiseaux ?",
+            "choices": [
+                "Les dents",
+                "Les griffes",
+                "Les plumes",
+                "La queue longue"
+            ],
+            "answer": 2
+        }
     ]
 }

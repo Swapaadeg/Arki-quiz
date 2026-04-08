@@ -472,7 +472,9 @@ class AnswerButton(discord.ui.Button):
     async def callback(self, interaction: discord.Interaction):
         view: "QuizView" = self.view
         if view is None:
+            await interaction.response.defer()
             return
+        await interaction.response.defer(ephemeral=True)
         await view.register_answer(interaction, self.index)
 
 
@@ -503,9 +505,7 @@ class QuizView(discord.ui.View):
 
     async def register_answer(self, interaction: discord.Interaction, index: int):
         if self.is_paused:
-            await interaction.response.send_message(
-                "Le quizz est en pause.", ephemeral=True
-            )
+            await interaction.followup.send("Le quizz est en pause.", ephemeral=True)
             return
         self.participant_ids.add(interaction.user.id)
         self.session_scores.setdefault(interaction.user.id, 0)
@@ -516,7 +516,7 @@ class QuizView(discord.ui.View):
             "elapsed": elapsed,
         }
 
-        await interaction.response.send_message(
+        await interaction.followup.send(
             f"Reponse {index + 1} enregistree.", ephemeral=True
         )
 
